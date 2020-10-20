@@ -42,7 +42,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       </details>
     </header>
     <script type="module">
-      import {WebXRSampleApp} from './js/webxr-sample-app.js';
+      //import {WebXRSampleApp} from './js/webxr-sample-app.js';
       import {WebXRButton} from './js/util/webxr-button.js';
       import {Scene} from './js/render/scenes/scene.js';
       import {Renderer, createWebGLContext} from './js/render/core/renderer.js';
@@ -128,12 +128,15 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         onResize();
 
         renderer = new Renderer(gl);
+        
+        this.renderer.globalLightDir = [-0.2, -1.0, -0.2];
+        this.renderer.globalLightColor = [7.0, 7.0, 8.0];
 
         scene.setRenderer(renderer);
       }
       
       
-      
+      /*
       // WebXR sample app setup
       class CustomWebXRSampleApp extends WebXRSampleApp {
         onInitRenderer() {
@@ -142,7 +145,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
           this.renderer.globalLightDir = [-0.2, -1.0, -0.2];
           this.renderer.globalLightColor = [7.0, 7.0, 8.0];
         }
-      };
+      };*/
 
       
       
