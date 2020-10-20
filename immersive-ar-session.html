@@ -34,7 +34,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   <body>
     <header>
       <details open>
-        <summary>Test1</summary>
+        <summary>Test2</summary>
         <p>
           This sample demonstrates how to use an 'immersive-ar' XRSession to
           present a simple WebGL scene to an transparent or passthrough XR
@@ -64,7 +64,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       // XR globals.
       let xrButton = null;
       let xrImmersiveRefSpace = null;
-      let inlineViewerHelper = null;
+      //let inlineViewerHelper = null;
 
       // WebGL scene globals.
       let gl = null;
@@ -73,7 +73,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       let solarSystem = new Gltf2Node({url: 'media/gltf/space/TestScene.gltf'});
       // The solar system is big (citation needed). Scale it down so that users
       // can move around the planets more easily.
-      solarSystem.scale = [0.1, 0.1, 0.1];
+      solarSystem.scale = [1, 1, 1];
       scene.addNode(solarSystem);
       // Still adding a skybox, but only for the benefit of the inline view.
       //let skybox = new SkyboxNode({url: 'media/textures/milky-way-4k.png'});
