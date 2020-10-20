@@ -34,7 +34,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   <body>
     <header>
       <details open>
-        <summary>Test5</summary>
+        <summary>Test6</summary>
         <p>
           This sample demonstrates how to use an 'immersive-ar' XRSession to
           present a simple WebGL scene to an transparent or passthrough XR
@@ -178,13 +178,13 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                          inlineViewerHelper.referenceSpace;
         let pose = frame.getViewerPose(refSpace);
 
-        scene.startFrame();
+        //scene.startFrame();
 
         session.requestAnimationFrame(onXRFrame);
 
-        scene.drawXRFrame(frame, pose);
+        //scene.drawXRFrame(frame, pose);
 
-        scene.endFrame();
+        //scene.endFrame();
       }
 
       // Start the XR application.
