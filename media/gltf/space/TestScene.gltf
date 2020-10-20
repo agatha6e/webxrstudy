@@ -13,6 +13,21 @@
     ],
     "scene": 0,
     "nodes": [
+            {
+            "name" : "Lamp", 
+            "rotation" : [
+                0.16907551884651184, 
+                0.7558804750442505, 
+                -0.2721710503101349, 
+                0.5709475874900818
+            ], 
+            "translation" : [
+                0.0, 
+                1.600000023841858, 
+                -0.0
+            ]
+        },
+        
         {
             "name": "heatvent",
             "children": [
@@ -91,7 +106,7 @@
                     "index": 0
                 },
                 "metallicFactor": 0.0,
-                "roughnessFactor": 0.5
+                "roughnessFactor": 1
             },
             "emissiveFactor": [
                 0.0,
