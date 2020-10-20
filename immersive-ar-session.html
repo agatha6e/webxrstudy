@@ -34,7 +34,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   <body>
     <header>
       <details open>
-        <summary>Test12</summary>
+        <summary>Test13</summary>
         <p>
           No light export version/ light intensity test2
           <a class="back" href="./">Back</a>
@@ -42,6 +42,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       </details>
     </header>
     <script type="module">
+      import {WebXRSampleApp} from '../js/webxr-sample-app.js';
       import {WebXRButton} from './js/util/webxr-button.js';
       import {Scene} from './js/render/scenes/scene.js';
       import {Renderer, createWebGLContext} from './js/render/core/renderer.js';
@@ -74,7 +75,19 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       // Still adding a skybox, but only for the benefit of the inline view.
       //let skybox = new SkyboxNode({url: 'media/textures/parkimg.jpg'});
       //scene.addNode(skybox);
+  
+      
+      // WebXR sample app setup
+      class CustomWebXRSampleApp extends WebXRSampleApp {
+        onInitRenderer() {
+          super.onInitRenderer();
 
+          this.renderer.globalLightDir = [-0.2, -1.0, -0.2];
+          this.renderer.globalLightColor = [0.9, 0.9, 1];
+        }
+      };
+
+      
       function initXR() {
         xrButton = new WebXRButton({
           onRequestSession: onRequestSession,
