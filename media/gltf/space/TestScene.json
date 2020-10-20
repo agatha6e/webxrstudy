@@ -1,0 +1,11 @@
+{
+	"TestScene": {
+		"version": 1,
+		"id": "TestScene",
+		"name": "1",
+		"kind": "Puppeteer",
+		"mood": null,
+		"postPlaybackMood": null,
+		"duration": 10
+	}
+}
