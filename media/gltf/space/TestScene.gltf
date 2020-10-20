@@ -1,0 +1,260 @@
+{
+    "asset": {
+        "copyright": "(C)2020 Agatha Park",
+        "generator": "maya2glTF v1.1.0 c13125a0af77",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "heatvent",
+            "children": [
+                1
+            ],
+            "translation": [
+                2.368380546569824,
+                0.04383888840675354,
+                0.5430049896240234
+            ]
+        },
+        {
+            "name": "heatvent:PIV",
+            "children": [
+                2
+            ],
+            "translation": [
+                28.6341552734375,
+                -2.110649347305298,
+                -117.88319396972656
+            ]
+        },
+        {
+            "name": "vent_top1",
+            "children": [
+                3
+            ],
+            "translation": [
+                -30.91519927978516,
+                3.917036294937134,
+                114.94458770751952
+            ]
+        },
+        {
+            "name": "vent_top1:PIV",
+            "mesh": 0,
+            "translation": [
+                30.91519927978516,
+                -3.917036294937134,
+                -114.94458770751952
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "vent_top1Shape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "GLSLShader1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.5,
+                "roughnessFactor": 0.5
+            },
+            "emissiveFactor": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "normalTexture": {
+                "index": 1
+            }
+        }
+    ],
+    "textures": [
+        {
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "sampler": 0,
+            "source": 1
+        }
+    ],
+    "images": [
+        {
+            "uri": "heatvent_wAO.png"
+        },
+        {
+            "uri": "heatvent_nm_2k.png"
+        }
+    ],
+    "samplers": [
+        {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    ],
+    "accessors": [
+        {
+            "name": "vent_top1Shape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 148848,
+            "max": [
+                33706
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "vent_top1Shape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 33707,
+            "max": [
+                0.999842882156372,
+                0.9999725818634032,
+                0.9999904036521912
+            ],
+            "min": [
+                -0.9999480843544006,
+                -0.991062104701996,
+                -0.9999656081199646
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "vent_top1Shape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 404484,
+            "componentType": 5126,
+            "count": 33707,
+            "max": [
+                -29.65018081665039,
+                4.923721313476563,
+                115.59707641601564
+            ],
+            "min": [
+                -32.30806732177735,
+                2.9103455543518068,
+                114.1698989868164
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "vent_top1Shape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 33707,
+            "max": [
+                0.9999896287918092,
+                0.9999762177467346,
+                0.9999768733978272,
+                1.0
+            ],
+            "min": [
+                -0.9999622702598572,
+                -0.9999864101409912,
+                -0.9999966025352478,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "vent_top1Shape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 33707,
+            "max": [
+                0.9958999752998352,
+                0.9962937831878662
+            ],
+            "min": [
+                0.003922222182154656,
+                0.0038999919779598715
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "TestScene/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 1617936,
+            "byteLength": 297696,
+            "target": 34963
+        },
+        {
+            "name": "TestScene/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 539312,
+            "byteLength": 808968,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "TestScene/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 539312,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "TestScene/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 1348280,
+            "byteLength": 269656,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "TestScene/data",
+            "byteLength": 1915632,
+            "uri": "TestScene0.bin"
+        }
+    ]
+}
