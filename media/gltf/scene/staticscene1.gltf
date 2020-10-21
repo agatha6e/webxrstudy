@@ -58,32 +58,6 @@
             ]
         },
         {
-            "extensions" : {
-                "KHR_lights_punctual" : {
-                    "light" : 0
-                }
-            },
-            "name" : "Sun_Orientation",
-            "rotation" : [
-                -0.7071067690849304,
-                0,
-                0,
-                0.7071067690849304
-            ]
-        },
-        {
-            "children" : [
-                2
-            ],
-            "name" : "Sun",
-            "rotation" : [
-                0.7258297801017761,
-                0.06614087522029877,
-                0.1328953355550766,
-                0.6716660857200623
-            ]
-        }
-        {
             "mesh" : 1,
             "name" : "crab_rig_33_antenna_l"
         },
