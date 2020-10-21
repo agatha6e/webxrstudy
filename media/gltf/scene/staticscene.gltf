@@ -18,7 +18,7 @@
                         1,
                         0.9430022835731506
                     ],
-                    "intensity" : 30000,
+                    "intensity" : 60000,
                     "type" : "point",
                     "name" : "Sun.001"
                 }
@@ -1532,8 +1532,8 @@
                     "index" : 2,
                     "texCoord" : 0
                 },
-                "metallicFactor" : 0.5,
-                "roughnessFactor" : 0.5527864098548889
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
             }
         },
         {
@@ -1550,8 +1550,8 @@
                     "index" : 3,
                     "texCoord" : 0
                 },
-                "metallicFactor" : 0.5,
-                "roughnessFactor" : 0.5527864098548889
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
             }
         },
         {
@@ -1569,7 +1569,7 @@
                     "texCoord" : 0
                 },
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.858578622341156
+                "roughnessFactor" : 1
             }
         },
         {
@@ -1585,8 +1585,8 @@
                     "index" : 5,
                     "texCoord" : 0
                 },
-                "metallicFactor" : 0.5,
-                "roughnessFactor" : 0.858578622341156
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
             }
         },
         {
@@ -1602,8 +1602,8 @@
                     "index" : 6,
                     "texCoord" : 0
                 },
-                "metallicFactor" : 0.5,
-                "roughnessFactor" : 0.7723639011383057
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
             }
         },
         {
@@ -1622,7 +1622,7 @@
                     1
                 ],
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.5527864098548889
+                "roughnessFactor" : 1
             }
         },
         {
@@ -1638,8 +1638,8 @@
                     "index" : 7,
                     "texCoord" : 0
                 },
-                "metallicFactor" : 0.5,
-                "roughnessFactor" : 0.5527864098548889
+                "metallicFactor" : 0,
+                "roughnessFactor" : 1
             }
         }
     ],
