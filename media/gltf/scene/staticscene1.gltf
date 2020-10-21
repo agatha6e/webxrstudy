@@ -1164,9 +1164,9 @@
         {
             "doubleSided" : true,
             "emissiveFactor" : [
-                0.01128341630101204,
-                0.013412341475486755,
-                0.054969724267721176
+                0.02593681961297989,
+                0.03128093481063843,
+                0.0765799954533577
             ],
             "name" : "GLSLShader1.002",
             "normalTexture" : {
@@ -1179,15 +1179,15 @@
                     "texCoord" : 0
                 },
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.5
+                "roughnessFactor" : 1
             }
         },
         {
             "doubleSided" : true,
             "emissiveFactor" : [
-                0.0732349082827568,
-                0.0732349082827568,
-                0.0732349082827568
+                0.06997739523649216,
+                0.06997739523649216,
+                0.06997739523649216
             ],
             "name" : "crab_rig_33_phong1.001",
             "pbrMetallicRoughness" : {
@@ -1196,7 +1196,7 @@
                     "texCoord" : 0
                 },
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.858578622341156
+                "roughnessFactor" : 1
             }
         },
         {
